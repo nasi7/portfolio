@@ -2,32 +2,44 @@ import React, { Component } from "react";
 import "./App.css";
 import { Router, Route, NavLink, HashRouter } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
-import Home from "./Home";
-import Experience from "./Experience";
-import GeneralInfo from "./GeneralInfo";
+import About from "./About";
+import Resume from "./Resume";
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div className="container">
         <HashRouter>
-          <Navbar bg="dark" variant="dark" fixed="top">
-            <Navbar.Brand href="#home">Nasimul Gani</Navbar.Brand>
-            <Nav className="mr-auto">
-              {/* <NavLink to="/home">Home</NavLink>
-              <NavLink to="/experience">Experience</NavLink>
-              <NavLink to="/generalinfo">General Info</NavLink> */}
-              <Nav.Link href="#experience">Experience</Nav.Link>
-              <Nav.Link href="#generalinfo">General Info</Nav.Link>
+          <Navbar bg="light" sticky="top">
+            <Navbar.Brand href="http://nasi7.github.io/portfolio">
+              <img
+                src="https://user-images.githubusercontent.com/55255943/76815590-0b5f3680-67cc-11ea-8d10-da8d456f6841.png"
+                width="100"
+                height="100"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+              />
+            </Navbar.Brand>
+            <Nav className="ml-auto">
+              <Nav.Link href="#about">About me</Nav.Link>
+              <Nav.Link href="#resume">Resume</Nav.Link>
+              <Nav.Link href="https://github.com/nasi7" target="_blank">
+                <i className="fa fa-github fa-lg"></i>
+              </Nav.Link>
+              <Nav.Link
+                href="https://www.linkedin.com/in/nasimul-gani-24189512b/"
+                target="_blank"
+              >
+                <i className="fa fa-linkedin fa-lg"></i>
+              </Nav.Link>
             </Nav>
           </Navbar>
           <div>
-            <Route path="/home" component={Home} />
-            <Route path="/experience" component={Experience} />
-            <Route path="/generalinfo" component={GeneralInfo} />
+            <Route path="/about" component={About} />
+            <Route path="/resume" component={Resume} />
           </div>
         </HashRouter>
-      </React.Fragment>
+      </div>
     );
   }
 }
