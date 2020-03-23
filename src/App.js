@@ -13,7 +13,7 @@ class App extends Component {
           <Navbar bg="light" sticky="top">
             <Navbar.Brand href="http://nasi7.github.io/portfolio">
               <img
-                src="https://user-images.githubusercontent.com/55255943/76815590-0b5f3680-67cc-11ea-8d10-da8d456f6841.png"
+                src="https://user-images.githubusercontent.com/55255943/77374190-0d7b4500-6d38-11ea-805d-d5cbb98b5749.png"
                 width="100"
                 height="100"
                 className="d-inline-block align-top"
