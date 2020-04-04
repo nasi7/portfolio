@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="main-body">
-        <div className="shadow mb-5">
+        <div className="shadow rounded mb-5">
           <HashRouter>
             <Navbar sticky="top">
               <Navbar.Brand href="http://nasi7.github.io/portfolio">
