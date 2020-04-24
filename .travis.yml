@@ -5,14 +5,5 @@ cache:
   directories:
     - node_modules
 script:
-  - npm install react-router-dom
   - npm install
   - CI=false npm run build
-deploy:
-  provider: pages
-  skip_cleanup: true
-  target_branch: gh-pages
-  github_token: $github_token
-  local_dir: build
-  on:
-    branch: master
