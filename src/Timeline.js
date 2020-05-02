@@ -3,10 +3,6 @@ import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import StarIcon from "@material-ui/icons/Star";
 import Chip from "@material-ui/core/Chip";
-import IconJavascript from "react-devicon/javascript/original";
-import IconReact from "react-devicon/react/original";
-import IconAngularjs from "react-devicon/angularjs/plain-wordmark";
-import IconExpress from "react-devicon/express/original-wordmark";
 
 import {
   VerticalTimeline,
@@ -19,7 +15,7 @@ class Timeline extends Component {
     return (
       <VerticalTimeline>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element"
           date="2019 - Present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<WorkIcon />}
@@ -130,7 +126,10 @@ class Timeline extends Component {
           <h3 className="vertical-timeline-element-title">
             Graduated from High School
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Kolkata, India</h4>
+          <h4 className="vertical-timeline-element-subtitle">
+            St. Augustine's Day School
+          </h4>
+          <h5 className="vertical-timeline-element-subtitle">Kolkata, India</h5>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

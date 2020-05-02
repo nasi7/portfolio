@@ -1,0 +1,6 @@
+#borderLeft {
+  border-top: 2px solid #f51c40;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+}
