@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import About from "./About";
 import Navigation from "./Navigation";
 import Timeline from "./Timeline";
 import LandingPage from "./LandingPage";
@@ -9,11 +10,9 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <div>
-          {/* <Paper elevation={9}>
-            <Navigation />
-          </Paper> */}
+        <div class="main-body">
           <LandingPage />
+          <About />
         </div>
         <Timeline />
       </React.Fragment>

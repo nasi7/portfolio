@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Route, HashRouter } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import "./Navigation.css";
-import About from "./About";
-import Resume from "./Resume";
 
 class Navigation extends Component {
   render() {
@@ -35,10 +33,6 @@ class Navigation extends Component {
                 </Nav.Link>
               </Nav>
             </Navbar>
-            <div>
-              <Route path="/about" component={About} />
-              <Route path="/resume" component={Resume} />
-            </div>
           </HashRouter>
         </div>
       </div>
