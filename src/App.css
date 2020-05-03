@@ -18,8 +18,8 @@
   color: white;
 } */
 
-body {
-  background: #d7fbe8;
+.jumbotron {
+  margin: 0px;
 }
 
 /* .main-body {
