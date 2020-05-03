@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
 import Paper from "@material-ui/core/Paper";
-import { makeStyles } from "@material-ui/core/styles";
-import Avatar from "@material-ui/core/Avatar";
 import { Jumbotron } from "react-bootstrap";
 
 export default function About() {
