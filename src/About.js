@@ -33,13 +33,11 @@ export default function About() {
               About me
             </h1>
             <p class="lead">
-              {/* <p class="name">Nasimul Gani</p>
-              <p class="title">Web Developer</p> */}
               Skilled in JavaScript, Java, C++, MySQL, and Full-Stack Web
               Development. Experience in Machine Learning Research with a
-              Faculty of the University of Nebraska- Lincoln. Experienced Web
+              Faculty at the University of Nebraska- Lincoln. Experienced Web
               Developer with a demonstrated history of designing interactive Web
-              Applications. Actively looking for entry level Software
+              Applications.<br></br>Actively looking for entry level Software
               Engineering or Web Developer positions.{" "}
             </p>
             <Button
