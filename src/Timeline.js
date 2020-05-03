@@ -9,6 +9,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import "./Timeline.css";
 import "react-vertical-timeline-component/style.min.css";
 
 class Timeline extends Component {
@@ -40,8 +41,8 @@ class Timeline extends Component {
                     icon={<WorkIcon />}
                   >
                     <div>
-                      <Chip label="React" />
-                      <Chip label="Node" />
+                      <Chip label="React" style={{ marginRight: "5px" }} />
+                      <Chip label="Node" style={{ marginRight: "5px" }} />
                       <Chip label="SQL" />
                     </div>
                     <h3 className="vertical-timeline-element-title">
@@ -58,7 +59,7 @@ class Timeline extends Component {
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element"
                     date="2017"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",
@@ -67,7 +68,7 @@ class Timeline extends Component {
                     icon={<WorkIcon />}
                   >
                     <div>
-                      <Chip label="MATLAB" />
+                      <Chip label="MATLAB" style={{ marginRight: "5px" }} />
                       <Chip label="Machine Learning" />
                     </div>
                     <h3 className="vertical-timeline-element-title">
@@ -84,7 +85,7 @@ class Timeline extends Component {
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element"
                     date="2016 - Present"
                     iconStyle={{
                       background: "rgb(233, 30, 99)",
@@ -93,8 +94,8 @@ class Timeline extends Component {
                     icon={<WorkIcon />}
                   >
                     <div>
-                      <Chip label="Java" />
-                      <Chip label="SQL" />
+                      <Chip label="Java" style={{ marginRight: "5px" }} />
+                      <Chip label="SQL" style={{ marginRight: "5px" }} />
                       <Chip label="MATLAB" />
                     </div>
                     <h3 className="vertical-timeline-element-title">
@@ -110,7 +111,7 @@ class Timeline extends Component {
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element"
                     date="2014 - 2016"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",
@@ -119,7 +120,7 @@ class Timeline extends Component {
                     icon={<WorkIcon />}
                   >
                     <div>
-                      <Chip label="AngularJS" />
+                      <Chip label="AngularJS" style={{ marginRight: "5px" }} />
                       <Chip label="PHP" />
                     </div>
                     <h3 className="vertical-timeline-element-title">
@@ -134,7 +135,7 @@ class Timeline extends Component {
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
+                    className="vertical-timeline-element"
                     date="Fall 2015"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",
@@ -142,7 +143,7 @@ class Timeline extends Component {
                     }}
                     icon={<SchoolIcon />}
                   >
-                    <Chip label="B.S." />
+                    <Chip label="B.S." style={{ marginRight: "5px" }} />
                     <Chip label="Computer Science" />
                     <h3 className="vertical-timeline-element-title">
                       Started Bachelor's Degree
@@ -152,7 +153,7 @@ class Timeline extends Component {
                     </h4>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
+                    className="vertical-timeline-element"
                     date="2014"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",

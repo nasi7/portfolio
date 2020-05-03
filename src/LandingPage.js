@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(3),
   },
   large: {
-    width: theme.spacing(15),
-    height: theme.spacing(15),
+    width: theme.spacing(20),
+    height: theme.spacing(20),
   },
 }));
 
@@ -36,21 +36,28 @@ export default function LandingPage() {
         </div>
         <div class="container text-dark">
           <div className={classes.root}>
-            <Avatar
-              className={classes.large}
-              src="https://user-images.githubusercontent.com/55255943/80873427-12f47500-8c7e-11ea-870d-89248b0ed2e3.jpg"
-            />
+            <a href="https://nasi7.github.io/portfolio">
+              <Avatar
+                className={classes.large}
+                src="https://user-images.githubusercontent.com/55255943/80873427-12f47500-8c7e-11ea-870d-89248b0ed2e3.jpg"
+              />
+            </a>
             <h1 class="display-3">Hello, I'm Nasimul.</h1>
           </div>
           <div class="theIcons">
             <a
               class="linkedin"
+              title="connect on LinkedIn"
               href="https://www.linkedin.com/in/nasimul-gani-24189512b/"
               target="_blank"
             >
               <LinkedInIcon fontSize="large" color="action" />
             </a>
-            <a href="https://github.com/nasi7" target="_blank">
+            <a
+              href="https://github.com/nasi7"
+              title="check out my Github"
+              target="_blank"
+            >
               <GitHubIcon fontSize="large" color="action" />
             </a>
           </div>

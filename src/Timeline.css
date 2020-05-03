@@ -4,3 +4,7 @@
   top: 50%;
   bottom: 0;
 }
+
+#label {
+  padding-right: 20px;
+}

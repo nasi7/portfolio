@@ -9,11 +9,12 @@ export default function Skills() {
       <Jumbotron>
         <Paper elevation="10">
           <div class="jumbotron">
-            <div class="row">
+            <div class="row" id="heading">
               <h1 class="display-4">Skills</h1>
             </div>
             <div
               class="row"
+              id="leading"
               style={{ borderTop: "3px solid #708160", paddingTop: "20px" }}
             >
               <p class="lead">Technologies and Languages I am proficient in:</p>
