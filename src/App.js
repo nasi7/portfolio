@@ -4,7 +4,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Timeline from "./Timeline";
 import LandingPage from "./LandingPage";
-import Paper from "@material-ui/core/Paper";
+import Footer from "./Footer";
 
 class App extends Component {
   render() {
@@ -16,6 +16,7 @@ class App extends Component {
         </div>
         <Timeline />
         <Skills />
+        <Footer />
       </React.Fragment>
     );
   }
