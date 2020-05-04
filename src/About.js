@@ -58,7 +58,7 @@ export default function About() {
               href="mailto:nasimulshaikh25@gmail.com"
               className={classes.margin}
             >
-              Hire me
+              Email me
             </Button>
           </div>
         </Paper>
