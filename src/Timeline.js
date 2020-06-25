@@ -33,7 +33,7 @@ class Timeline extends Component {
                 <VerticalTimeline>
                   <VerticalTimelineElement
                     className="vertical-timeline-element"
-                    date="2019 - Present"
+                    date="August 2019 - May 2020"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",
                       color: "#fff",
