@@ -19,7 +19,7 @@
     "react": "^16.13.1",
     "react-devicon": "^0.1.9",
     "react-dom": "^16.13.1",
-    "react-pdf": "^4.1.0",
+    "react-pdf": "^7.7.3",
     "react-scripts": "3.4.0",
     "react-vertical-timeline-component": "^2.6.2",
     "typeface-roboto": "0.0.75"
